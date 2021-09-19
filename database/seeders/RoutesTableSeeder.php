@@ -18,22 +18,26 @@ class RoutesTableSeeder extends Seeder
         Route::insert([
             // Mass insert
             [
-                'name' => 'Mexicali - Tecate - Tijuana - Rosarito - Ensenada',
+                'name' => 'Mexicali-Tecate-Tijuana-Rosarito-Ensenada',
+                'distance' => 289.78,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'name' => 'Mexicali - Tecate',
+                'name' => 'Mexicali-Tecate',
+                'distance' => 129.75,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'name' => 'Mexicali - Tecate - Ensenada',
+                'name' => 'Mexicali-Tecate-Ensenada',
+                'distance' => 269.69,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'name' => 'Mexicali - Tijuana',
+                'name' => 'Mexicali-Tijuana',
+                'distance' => 171.56,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
