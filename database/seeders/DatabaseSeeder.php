@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RoutesTableSeeder::class,
             TransportUnitsTableSeeder::class,
+            UsersTableSeeder::class,
         ]);
     }
 }
